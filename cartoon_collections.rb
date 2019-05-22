@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each_with_index do |name, index|# Your code here
   puts "#{index + 1} #{name}"
  end
-end 
+end
 
 def summon_captain_planet(veggies)# code an argument here
   veggies.collect do |call|# Your code here
