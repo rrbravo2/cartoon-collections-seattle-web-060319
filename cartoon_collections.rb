@@ -11,7 +11,7 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planeteer_calls(calls_long)# code an argument here
-  array.any? do |words|# Your code here
+  calls_long.any? do |words|# Your code here
    words.length > 4
  end
 end
